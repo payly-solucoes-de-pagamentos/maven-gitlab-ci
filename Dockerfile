@@ -6,8 +6,8 @@ FROM maven:3.6-jdk-11
 ENV PATH="~/.local/bin:$PATH"
 
 # run
-RUN apt-get update && \
-    apt-get install bash curl python3 && \
+RUN apt-get --yes update && \
+    apt-get --yes install bash curl python3 && \
     curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py && \
     python3 get-pip.py && \
     rm get-pip.py && \
