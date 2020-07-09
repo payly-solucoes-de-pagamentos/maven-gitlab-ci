@@ -1,6 +1,6 @@
 FROM maven:3.6-jdk-11
 
-# MAINTAINER Autor <henrique.schmidt@4all.com>
+# MAINTAINER Autor <henrique.schmidt@somosphi.com>
 
 # export variables
 ENV PATH="~/.local/bin:$PATH"
